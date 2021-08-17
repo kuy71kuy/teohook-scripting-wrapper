@@ -18,3 +18,9 @@ joinWorld("start") -- This will teleport you to the world "start".
 ```lua
 dropItem(2, 15) -- This will drop 15 of the specific item specified, in this case itemID 2 is dirt, so this will drop 15 dirt.
 ```
+### Face Side
+* params: (string side)
+* possible sides: "right", "left"
+```lua
+faceSide("left") -- This will make you look to the left side (server-sided, you won't see it on your end.)
+```
