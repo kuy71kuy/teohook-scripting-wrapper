@@ -9,12 +9,12 @@ To use this, you must copy all of the code from the `wrapper.lua` file and put i
 
 ## Functions
 ### Join World
-* Params: (string worldName)
+* params: (string worldName)
 ```lua
 joinWorld("start") -- This will teleport you to the world "start".
 ```
 ### Drop Item
-* Params: (int itemID, int count)
+* params: (int itemID, int count)
 ```lua
 dropItem(2, 15) -- This will drop 15 of the specific item specified, in this case itemID 2 is dirt, so this will drop 15 dirt.
 ```
