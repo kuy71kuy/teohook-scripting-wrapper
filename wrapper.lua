@@ -4,5 +4,5 @@ function dropItem(itemID, count)
 end
 
 function joinWorld(world)
-	sendPacket(false, "action|join_request\nname|" .. world .. "\ninvitedWorld|0", 3);
+	sendPacket(false, "action|join_request\nname|" .. world, 3);
 end
