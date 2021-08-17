@@ -7,7 +7,7 @@ Created for Teohook v1.2
 ## How to use
 To use this, you must copy all of the code from the `wrapper.lua` file and put it at the top of your file.
 
-## Usage
+## Functions
 ### Join World
 * Params: (string worldName)
 ```lua
