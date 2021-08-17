@@ -1,5 +1,5 @@
 # Teohook Scripting Wrapper
-This is a wrapper for the teohook scripting functionality.
+This is a wrapper for the teohook's scripting functionality.
 
 ## How to use
 To use this, you must copy all of the code from the `wrapper.lua` file and put it at the top of your file.
