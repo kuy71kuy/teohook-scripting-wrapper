@@ -1,8 +1,8 @@
 # Teohook Scripting Wrapper
 This is a wrapper for the teohook's scripting functionality.
 
-## Info
-Created for Teohook v1.2
+## Teohook Scripting Documentation
+If you want to check out the documentation for teohook, you can click [here](docs)
 
 ## How to use
 To use this, you must copy all of the code from the `wrapper.lua` file and put it at the top of your file.
