@@ -27,6 +27,12 @@ dropItem(2, 15)
 -- This will make you look to the left side (server-sided, you won't see it on your end.)
 faceSide("left")
 ```
+### Wrench Tile
+* params: (int x, int y)
+```lua
+-- This will wrench the block that is at x-75, y-25
+wrenchTile(75,25)
+```
 ### Hit Tile
 * params: (int x, int y)
 ```lua
