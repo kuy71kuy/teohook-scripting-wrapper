@@ -1,11 +1,13 @@
--- ┌─────────────────────────────────────────────────────────────────────────────────┐
--- │ Teohook Wrapper                                                                 │
--- │ Made by ManualMap#0001 (https://github.com/ManualMap/teohook-scripting-wrapper) │
--- │ License: MIT                                                                    │
--- │ Wrapper Version: v1.4                                                           │
--- │ Created for teohook v1.2                                                        │
--- │ Contributors: arky#0086                                                         │
--- └─────────────────────────────────────────────────────────────────────────────────┘
+-- ╔═════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+-- ║ Teohook Wrapper                                                                 ║
+-- ╠═════════════════════════════════════════════════════════════════════════════════╣
+-- ║ Made by ManualMap#0001 (https://github.com/ManualMap/teohook-scripting-wrapper) ║
+-- ║ License: MIT                                                                    ║
+-- ║ Wrapper Version: v1.4                                                           ║
+-- ╠═════════════════════════════════════════════════════════════════════════════════╣
+-- ║ Created for teohook v1.2                                                        ║
+-- ║ Contributors: arky#0086                                                         ║
+-- ╚═════════════════════════════════════════════════════════════════════════════════╝
 
 function dropItem(itemID, count)
 	sendPacket(false, "action|drop\n|itemID|" .. itemID, 2)
