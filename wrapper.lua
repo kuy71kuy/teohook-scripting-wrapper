@@ -1,17 +1,19 @@
--- Scripting Wrapper
--- Made by ManualMap#0001 (https://github.com/ManualMap/teohook-scripting-wrapper)
--- License: MIT
--- Created for teohook v1.2
--- Wrapper Version: v1.4
--- Contributors: arky#0086
+-- ┌─────────────────────────────────────────────────────────────────────────────────┐
+-- │ Teohook Wrapper                                                                 │
+-- │ Made by ManualMap#0001 (https://github.com/ManualMap/teohook-scripting-wrapper) │
+-- │ License: MIT                                                                    │
+-- │ Wrapper Version: v1.4                                                           │
+-- │ Created for teohook v1.2                                                        │
+-- │ Contributors: arky#0086                                                         │
+-- └─────────────────────────────────────────────────────────────────────────────────┘
 
 function dropItem(itemID, count)
-	sendPacket(false, "action|drop\n|itemID|" .. itemID, 2);
-	sendPacket(false, "action|dialog_return\ndialog_name|drop_item\nitemID|" .. itemID .. "|\ncount|" .. count, 2);
+	sendPacket(false, "action|drop\n|itemID|" .. itemID, 2)
+	sendPacket(false, "action|dialog_return\ndialog_name|drop_item\nitemID|" .. itemID .. "|\ncount|" .. count, 2)
 end
 
 function joinWorld(world)
-	sendPacket(false, "action|join_request\nname|" .. world, 3);
+	sendPacket(false, "action|join_request\nname|" .. world, 3)
 end
 
 function faceSide(side)
@@ -31,9 +33,9 @@ function faceSide(side)
 		packet.pos_y = getLocal().pos.y
 		packet.flags = 32
 		sendPacketRaw(false, packet)
-		return;
+		return
 	end
-	log("Invalid side chosen (" .. side .. ")")
+	log("`cInvalid side chosen (`4" .. side .. "`c)")
 end
 
 function wrenchTile(x, y)
