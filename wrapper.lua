@@ -1,9 +1,9 @@
 -- Scripting Wrapper
 -- Made by ManualMap#0001 (https://github.com/ManualMap/teohook-scripting-wrapper)
+-- License: MIT
 -- Created for teohook v1.2
 -- Wrapper Version: v1.4
 -- Contributors: arky#0086
--- License: MIT
 
 function dropItem(itemID, count)
 	sendPacket(false, "action|drop\n|itemID|" .. itemID, 2);
