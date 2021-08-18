@@ -34,6 +34,17 @@ function faceSide(side)
 	log("Invalid side chosen (" .. side .. ")")
 end
 
+function wrenchTile(x, y)
+    pkt = {}
+    pkt.type = 3
+    pkt.int_data = 32
+    pkt.int_x = x
+    pkt.int_y = y
+    pkt.pos_x = getLocal().pos.x
+    pkt.pos_y = getLocal().pos.y
+    sendPacketRaw(false, pkt)
+end
+
 function hitTile(x, y)
     pkt = {}
     pkt.type = 3
