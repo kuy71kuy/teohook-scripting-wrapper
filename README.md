@@ -1,5 +1,5 @@
 # Teohook Scripting Wrapper
-This is a wrapper for the teohook's scripting functionality.
+This is a wrapper for the scripting functionality that teohook has.
 
 ## Teohook Scripting Documentation
 If you want to check out the documentation for teohook's scripting, you can click [here](docs)
