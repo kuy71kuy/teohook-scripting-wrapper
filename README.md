@@ -34,7 +34,7 @@ faceSide("left")
 hitTile(75, 25)
 ```
 ### Place Tile
-* params: (string id, int x, int y)
+* params: (int id, int x, int y)
 ```lua
 -- This will place a dirt block (id = 3) at x-75, y-25.
 placeTile(3, 75, 25)
